@@ -73,25 +73,25 @@ Des Weiteren können Verknüpfungen (Beziehungen) über sogenannte Primärschlü
 * Grösser gleich (>=) oder Kleiner gleich (<=)
 
 **LIKE-Befehl:**
-* `_` :point-right: Ein beliebiges Zeichen
-* `%` :point-right: Eine beliebige Zeichenkette
+* `_` :point_right: Ein beliebiges Zeichen
+* `%` :point_right: Eine beliebige Zeichenkette
 
 **ORDER BY-Befehl**
-* `ASC` :point-right: Das Ergebnis wird aufsteigend sortiert
-* `DESC` :point-right: Das Ergebnis wird absteigend sortiert
+* `ASC` :point_right: Das Ergebnis wird aufsteigend sortiert
+* `DESC` :point_right: Das Ergebnis wird absteigend sortiert
 
 **GROUP BY-/ HAVING-Befehl**
-* AVG() :point-right: Durchschnittswert (Mittelwert)
-* COUNT() :point-right: Anzahl
-* MAX() :point-right: MAX (Höchster Wert)
-* MIN() :point-right: MIN (Kleinster Wert)
-* SUM() :point-right: SUMME
-* FIRST() :point-right: Erster Wert der Spalte
-* LAST() :point-right: Letzter Wert der Spalte
-* UCASE() :point-right: Konvertiert in Grossbuchstaben
-* LCASE() :point-right: Konvertiert in Kleinbuchstaben
-* MID() :point-right: Extrahiert Buchstabenreihe
-* LEN() :point-right: Zeichenlänge des Wertes
-* ROUND() :point-right: Runden (VRUNDEN)
-* NOW() :point-right: Aktuelles Datum und Uhrzeit
-* FORMAT() :point-right: formatiert nach gewünschtem Format
+* `AVG()` :point_right: Durchschnittswert (Mittelwert)
+* `COUNT()` :point_right: Anzahl
+* `MAX()` :point_right: MAX (Höchster Wert)
+* `MIN()` :point_right: MIN (Kleinster Wert)
+* `SUM()` :point_right: SUMME
+* `FIRST()` :point_right: Erster Wert der Spalte
+* `LAST()` :point_right: Letzter Wert der Spalte
+* `UCASE()` :point_right: Konvertiert in Grossbuchstaben
+* `LCASE()` :point_right: Konvertiert in Kleinbuchstaben
+* `MID()` :point_right: Extrahiert Buchstabenreihe
+* `LEN()` :point_right: Zeichenlänge des Wertes
+* `ROUND()` :point_right: Runden (VRUNDEN)
+* `NOW()` :point_right: Aktuelles Datum und Uhrzeit
+* `FORMAT()` :point_right: formatiert nach gewünschtem Format
