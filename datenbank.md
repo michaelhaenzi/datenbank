@@ -47,4 +47,51 @@ Die Datenbank kann man sich unter einer Sammlung von Tabellen und Beziehungen vo
 
 ![relationale DB](relationaledb.PNG)
 
-Des Weiteren können Verknüpfungen (Beziehungen) über sogenannte Primärschlüssel hergestellt werden, um bestimme Attribute, die den gleichen Primärschlüssel oder in einer Detailtabelle als Fremdschlüssel besitzen, abzufragen. 
+Des Weiteren können Verknüpfungen (Beziehungen) über sogenannte Primärschlüssel hergestellt werden, um bestimme Attribute, die den gleichen Primärschlüssel oder in einer Detailtabelle als Fremdschlüssel besitzen, abzufragen.
+
+###SQL-Befehle
+
+| SQL-Befehl | Syntax | Beschreibung |
+| :----------: | ------ | ------------ |
+| `SELECT`     | `SELECT Spaltenname FROM Tabellenname` |  |
+| `DISTINCT` | `SELECT DISTINCT Spaltenname FROM Tabellenname` |  |
+| `WHERE` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname = Wert` |  |
+| `AND` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname1 = Wert1 AND Spaltenname2 = Wert2` |  |
+| `OR` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname1 = Wert1 OR Spaltenname2 = Wert2` |  |
+| `IN` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname IN ('Wert1', 'Wert2')` |  |
+| `BETWEEN` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname BETWEEN 'DATUM1' AND 'DATUM2'` |  |
+| `LIKE` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname LIKE 'MUSTER'` |  |
+| `ORDER BY` | `SELECT Spaltenname FROM Tabellenname WHERE Spaltenname LIKE 'MUSTER'` |  |
+| `GROUP BY` | `SELECT spaltenname FROM tabellenname [WHERE Bedingung] GROUP BY spaltenname` |  |
+| `HAVING` | `SELECT spaltenname FROM tabellenname [WHERE Bedingung] GROUP BY spaltenname HAVING Ausdruck;` |  |
+
+###Weitere SQL-Befehl Funktionen
+
+**WHERE-Befehl**
+* Gleich (=) oder Ungleich (<>)
+* Grösser als (>) oder Kleiner als (<)
+* Grösser gleich (>=) oder Kleiner gleich (<=)
+
+**LIKE-Befehl:**
+* `_` :point-right: Ein beliebiges Zeichen
+* `%` :point-right: Eine beliebige Zeichenkette
+
+**ORDER BY-Befehl**
+* `ASC` :point-right: Das Ergebnis wird aufsteigend sortiert
+* `DESC` :point-right: Das Ergebnis wird absteigend sortiert
+
+**GROUP BY-/ HAVING-Befehl**
+* AVG() :point-right: Durchschnittswert (Mittelwert)
+* COUNT() :point-right: Anzahl
+* MAX() :point-right: MAX (Höchster Wert)
+* MIN() :point-right: MIN (Kleinster Wert)
+* SUM() :point-right: SUMME
+* FIRST() :point-right: Erster Wert der Spalte
+* LAST() :point-right: Letzter Wert der Spalte
+* UCASE() :point-right: Konvertiert in Grossbuchstaben
+* LCASE() :point-right: Konvertiert in Kleinbuchstaben
+* MID() :point-right: Extrahiert Buchstabenreihe
+* LEN() :point-right: Zeichenlänge des Wertes
+* ROUND() :point-right: Runden (VRUNDEN)
+* NOW() :point-right: Aktuelles Datum und Uhrzeit
+* FORMAT() :point-right: formatiert nach gewünschtem Format
